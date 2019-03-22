@@ -35,15 +35,6 @@ final class ___VARIABLE_moduleName:identifier___ViewController: SMBaseModelTable
     
     // MARK: Base Overrides
     
-    override func configureTableDisposer() {
-        
-        super.configureTableDisposer()
-        
-        guard let modeledTableDisposer: SMTableDisposerModeled = tableDisposer as? SMTableDisposerModeled else { return }
-        
-        //Registrate celldatas here
-    }
-    
     
     // MARK: Logic
     

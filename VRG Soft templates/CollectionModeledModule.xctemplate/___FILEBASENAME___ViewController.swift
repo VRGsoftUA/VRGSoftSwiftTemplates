@@ -35,15 +35,6 @@ final class ___VARIABLE_moduleName:identifier___ViewController: SMBaseModelColle
     
     // MARK: Base Overrides
     
-    override func configureCollectionDisposer() {
-        
-        super.configureCollectionDisposer()
-        
-        guard let modeledCollectionDisposer: SMCollectionDisposerModeled = collectionDisposer as? SMCollectionDisposerModeled else { return }
-        
-        // registrate celldatas here
-    }
-    
     
     // MARK: Logic
     

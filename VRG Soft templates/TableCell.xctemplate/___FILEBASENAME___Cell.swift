@@ -32,7 +32,6 @@ class ___VARIABLE_cellName:cellName___Cell: SMBaseCell {
         
         super.prepareForReuse()
         
-        clear()
     }
     
     
@@ -47,14 +46,6 @@ class ___VARIABLE_cellName:cellName___Cell: SMBaseCell {
     override func setupWith(model aModel: AnyObject?) {
         
         super.setupWith(model: aModel)
-        
-    }
-    
-    
-    // MARK: Logic
-    
-    override func clear() {
-        
         
     }
 }
